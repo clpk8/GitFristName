@@ -13,6 +13,7 @@ int main(int argc, const char * argv[]) {
     //define radius and area as double because PI is not an int
     double radius;
     double area;
+	double c;
     printf("Please enter the radius of the circule\n");
     
     if (scanf("%lf",&radius) != 1){
